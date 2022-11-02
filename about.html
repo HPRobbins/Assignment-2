@@ -14,27 +14,37 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
       <body>
-        <p>Hello World</p>
-        <p> My Name is Hailey!</p>
+        <div class="page-header">
+            <h1>Welcome To My Website</h1>
+        </div>
+
+        <p>My Name is Hailey Robbins!</p>
+
         <img src = "./images/me.jpg" height = "200px" width = "175px"/>
 
+        <br>
         <p>My Github Information:
         <br>Username: HPRobbins</br>
         </p>
-        <a href="https://github.com/HPRobbins/""> Link to my Profile </a>
+        <a class="btn btn-primary" href="http://github.com/HPRobbins/" role="button">Link to GitHub Profile</a>
 
-        <table border="2px">
+        <br>
+        <p>My Fall 2022 Schedule</p>
+        <table class="table table-striped">
+          <thead>
           <tr>
-          <td></td>
-          <td>Monday</td>
-          <td>Tuesday</td>
-          <td>Wednesday</td>
-          <td>Thursday</td>
-          <td>Friday</td>
+          <td scope="col"></th>
+          <td scope="col">Monday</th>
+          <td scope="col">Tuesday</th>
+          <td scope="col">Wednesday</th>
+          <td scope="col">Thursday</th>
+          <td scope="col">Friday</th>
         </tr>
+        </thead>
 
+        <tbody>
         <tr>
-          <td>10:00AM</td>
+          <th scope="row">10:00AM</th>
           <td>INF 284</td>
           <td>Free Day</td>
           <td>INF 284</td>
@@ -43,7 +53,7 @@
         </tr>
 
         <tr>
-          <td>11:00AM</td>
+          <th scope="row">11:00AM</th>
           <td>Lunch</td>
           <td>Homework</td>
           <td>Lunch</td>
@@ -52,7 +62,7 @@
         </tr>
 
         <tr>
-          <td>12:00PM</td>
+          <th scope="row">12:00PM</th>
           <td>JPN 102</td>
           <td>Free Day</td>
           <td>JPN 102</td>
@@ -61,7 +71,7 @@
         </tr>
 
         <tr>
-          <td>1:00PM</td>
+          <th scope="row">1:00PM</th>
           <td>CEP 101</td>
           <td>Homework</td>
           <td>CEP 101</td>
@@ -70,7 +80,7 @@
         </tr>
 
         <tr>
-          <td>2:00PM</td>
+          <th scope="row">2:00PM</th>
           <td>CEP 101</td>
           <td>Homework</td>
           <td>CEP 101</td>
@@ -79,25 +89,24 @@
         </tr>
 
         <tr>
-          <td>3:00PM</td>
+          <th scope="row">3:00PM</th>
           <td>CEP 101</td>
           <td>Homework</td>
           <td>CEP 101</td>
           <td>Homework</td>
           <td>Homework</td>
         </tr>
+        </tbody>
+        </table>
 
-
-
-      <p>Here are Some Basic Facts About Me:</p>
-          <ul>
-            <li>I am 19 Years Old </li>
-            <li>I am From Carrollton, KY </li>
-            <li>I am a Transfer Student and This is my First Semester at NKU </li>
-            <li>My Major is Computer Information Technology </li>
-            <li>I Love Animals so a Future Goal for me is to Foster Shelter Animals</li>
+      <br>
+        <p>Here are Some Basic Facts About Me:</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">I am 19 Years Old </li>
+            <li class="list-group-item">I am From Carrollton, KY </li>
+            <li class="list-group-item">I am a Transfer Student and This is my First Semester at NKU </li>
+            <li class="list-group-item">My Major is Computer Information Technology </li>
+            <li class="list-group-item">I Love Animals so a Future Goal for me is to Foster Shelter Animals</li>
           </ul>
-      My Fall 2022 Schedule
-
-      </body>
+  </body>
 </html>
